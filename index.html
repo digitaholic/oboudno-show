@@ -6,22 +6,22 @@
 <title>Импро-шоу на ваше мероприятие — Обоюдно</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Pliant:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
   --cream:   #F7F4EE;
   --white:   #FFFFFF;
   --sand:    #EDE8DF;
-  --ink:     #161412;
-  --body:    #2C2724;
-  --mid:     #7A7068;
-  --subtle:  #C5BDB5;
+  --ink:     #110F0E;
+  --body:    #1E1B19;
+  --mid:     #4A4440;
+  --subtle:  #8A8078;
   --rust:    #B8390C;
   --rust-lt: #D44A18;
   --dark:    #1A1614;
-  --ff-h:    'DM Serif Display', Georgia, serif;
-  --ff-b:    'Plus Jakarta Sans', system-ui, sans-serif;
+  --ff-h:    'Pliant', Georgia, serif;
+  --ff-b:    'Onest', system-ui, sans-serif;
   --ease:    cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -111,14 +111,9 @@ section { padding: 100px 48px; }
   background: var(--sand); border: 1px solid rgba(22,20,18,0.07);
   aspect-ratio: 3/4; display: flex; flex-direction: column;
   align-items: center; justify-content: center; gap: 12px;
-  margin-bottom: 2px;
 }
 .hero-visual-icon { font-size: 2.4rem; opacity: 0.22; }
 .hero-visual-text { font-size: 0.72rem; color: var(--mid); text-align: center; line-height: 1.55; }
-.hero-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 2px; }
-.hero-stat { background: var(--white); padding: 18px 16px; }
-.hero-stat-num { font-family: var(--ff-h); font-size: 1.9rem; color: var(--rust); line-height: 1; margin-bottom: 4px; }
-.hero-stat-label { font-size: 0.67rem; color: var(--mid); line-height: 1.4; }
 
 @media(max-width:860px){
   #hero { grid-template-columns: 1fr; padding: 0 20px 60px; min-height: auto; }
@@ -310,20 +305,6 @@ footer { background: var(--dark); padding: 24px 48px; border-top: 1px solid rgba
     <div class="hero-visual">
       <div class="hero-visual-icon">📷</div>
       <div class="hero-visual-text">Фото с выступления<br>— вставить здесь</div>
-    </div>
-    <div class="hero-stats">
-      <div class="hero-stat">
-        <div class="hero-stat-num">30+</div>
-        <div class="hero-stat-label">выступлений</div>
-      </div>
-      <div class="hero-stat">
-        <div class="hero-stat-num">100+</div>
-        <div class="hero-stat-label">участников фестиваля</div>
-      </div>
-      <div class="hero-stat">
-        <div class="hero-stat-num">7</div>
-        <div class="hero-stat-label">человек на сцене</div>
-      </div>
     </div>
   </div>
 </section>
